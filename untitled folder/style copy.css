@@ -20,7 +20,7 @@ body {
     top: 70px;
     left: 80px;
     margin-bottom: 120px;
-   
+    position: absolute;
     
 
 }
@@ -45,31 +45,22 @@ a {
 }
 
 .landing-page {
-
-        margin-top:226px;
-        margin-bottom: 120px;
+     background-image: url(ellipse9.svg), url(ellipse10.svg) ;
+      background-position: 700px 50px;
+        background-repeat: no-repeat;
         position: relative;
+        bottom: 120px;
        
     
 }
 
-.background-image {
-    position: absolute;
-    right:100px;
-    z-index: -1;
-}
-
-
 .hero {
     display: flex;
+    margin-top: 120px;
     margin-left: 80px;
     margin-right: 240px;
     width: 1120px;
     gap: 151px;
-    
-    
-       
-       
 
 }
 
